@@ -1,19 +1,23 @@
 # Arduino-Based Fire Detection and Suppression System
 
-This project implements a fire detection and suppression system using Arduino.
+## Overview
+This project implements a fire detection and suppression system using an Arduino microcontroller.
+
+The system detects fire using a flame sensor and automatically activates a water pump through a relay module to extinguish the fire.
 
 ## Components
 - Arduino board
 - Flame sensor
+- Relay module
 - Water pump
 - Buzzer
-- Relay module
 
-## Description
-The system detects fire using a flame sensor. When fire is detected, the Arduino activates a water pump through a relay to suppress the fire and triggers an alarm.
+## Functionality
+1. The flame sensor monitors the environment.
+2. When fire is detected, the Arduino triggers an alarm.
+3. The relay activates the water pump to suppress the fire.
 
-## How it works
-1. Flame sensor monitors the environment.
-2. When fire is detected, Arduino activates the relay.
-3. The relay turns on the water pump.
-4. A buzzer alerts the user.
+## Technologies
+- Arduino
+- C++
+- Embedded systems
